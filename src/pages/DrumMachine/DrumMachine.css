@@ -70,3 +70,17 @@
     font-size: large;
     font-weight: 600;
 }
+
+@media (max-width: 50rem) {
+    .drumpad {
+        height: 5rem;
+    }
+
+    .drumpad__key {
+        display: none;
+    }
+
+    .drumpads__grid {
+        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    }
+}
