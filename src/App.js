@@ -19,10 +19,10 @@ export default function App() {
 
         <div className="container">
           <Switch>
-            <Route path="/drum-machine">
+            <Route path="/react-drum-machine/drum-machine/">
               <DrumMachine />
             </Route>
-            <Route path="/">
+            <Route path="/react-drum-machine/">
               <Home />
             </Route>
           </Switch>
