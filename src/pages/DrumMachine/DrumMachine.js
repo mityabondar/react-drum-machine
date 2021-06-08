@@ -10,37 +10,37 @@ export default class DrumMachine extends React.Component {
                     keyName: 'q', 
                     keyCode: 81, 
                     oneShotName: 'Kick', 
-                    oneShotAudio: '/oneShots/oneshot_kick.wav'
+                    oneShotAudio: 'oneShots/oneshot_kick.wav'
                 },
                 {
                     keyName: 'w', 
                     keyCode: 87, 
                     oneShotName: 'Snare', 
-                    oneShotAudio: '/oneShots/oneshot_snare.wav'
+                    oneShotAudio: 'oneShots/oneshot_snare.wav'
                 },
                 {
                     keyName: 'e', 
                     keyCode: 69, 
                     oneShotName: 'HiHat', 
-                    oneShotAudio: '/oneShots/oneshot_hihat.wav'
+                    oneShotAudio: 'oneShots/oneshot_hihat.wav'
                 },
                 {
                     keyName: 'a', 
                     keyCode: 65, 
                     oneShotName: 'Crash', 
-                    oneShotAudio: '/oneShots/oneshot_crash.wav'
+                    oneShotAudio: 'oneShots/oneshot_crash.wav'
                 },
                 {
                     keyName: 's', 
                     keyCode: 83, 
                     oneShotName: 'Percussion', 
-                    oneShotAudio: '/oneShots/oneshot_perc.wav'
+                    oneShotAudio: 'oneShots/oneshot_perc.wav'
                 },
                 {
                     keyName: 'd', 
                     keyCode: 68, 
                     oneShotName: 'Shaker', 
-                    oneShotAudio: '/oneShots/oneshot_shaker.wav'
+                    oneShotAudio: 'oneShots/oneshot_shaker.wav'
                 }
             ]
         };
