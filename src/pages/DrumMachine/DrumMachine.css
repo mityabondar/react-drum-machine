@@ -1,0 +1,72 @@
+.drumpads {
+    margin: 2rem auto;
+    max-width: 35rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: var(--c-bg--light);
+    box-shadow: 0px 10px 12px -10px grey;
+}
+
+.drumpads__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-gap: 1rem;
+}
+
+.drumpad {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: floralwhite;
+    box-shadow: 0 5px 1px -3px black;
+    transition: box-shadow .3s, background-color .3s;
+}
+
+.drumpad.active {
+    background-color: #ffff57;
+    box-shadow: inset 0px 0px 7px 0 black;
+}
+
+.drumpad.active:nth-of-type(2) {
+    background-color: #ff59ff;
+}
+
+.drumpad.active:nth-of-type(3) {
+    background-color: #168ae9;
+}
+
+.drumpad.active:nth-of-type(4) {
+    background-color: #2fe916;
+}
+
+.drumpad.active:nth-of-type(5) {
+    background-color: #00e1ff;
+}
+
+.drumpad.active:nth-of-type(6) {
+    background-color: #ff0000;
+}
+
+.drumpad__key {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.drumpad__keyname {
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+.drumpad__name {
+    font-size: large;
+    font-weight: 600;
+}
