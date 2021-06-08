@@ -6,17 +6,13 @@ import Footer from './layout/Footer'
 import DrumMachine from './pages/DrumMachine'
 
 export default function App() {
-  return (
-    <Router>
-      <>
-        <Header />
+  return (<>
+    <Header />
 
-        <div className="container">
-          <DrumMachine />
-        </div>
+      <div className="container">
+        <DrumMachine />
+      </div>
 
-        <Footer />
-      </>
-    </Router>
-  );
+    <Footer />
+  </>);
 }
