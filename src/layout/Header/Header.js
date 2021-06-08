@@ -8,10 +8,10 @@ function Header() {
             <nav className="header__nav">
                 <ul className="header__list">
                     <li className="header__li">
-                        <Link to="/">Home</Link>
+                        <Link to="/react-drum-machine/">Home</Link>
                     </li>
                     <li className="header__li">
-                        <Link to="/drum-machine">Drum Machine</Link>
+                        <Link to="/react-drum-machine/drum-machine">Drum Machine</Link>
                     </li>
                 </ul>
             </nav>
