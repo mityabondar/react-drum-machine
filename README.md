@@ -1,6 +1,6 @@
 # Drum Machine
 
-Link: 
+Link: https://mityabondar.github.io/react-drum-machine/
 
 TODO Drum Machine:
 - Громкость
